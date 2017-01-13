@@ -8698,7 +8698,7 @@ p.caption {
   text-align: center; }
 
 .carousel.full-view-avail .item {
-  width: 750px;
+  max-width: 750px;
   height: 400px;
   background: #777; }
   .carousel.full-view-avail .item img {
