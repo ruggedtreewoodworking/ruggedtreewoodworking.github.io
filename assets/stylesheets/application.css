@@ -8665,7 +8665,7 @@ header {
         header .container .row .mission h2 {
           color: #FFF;
           text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
-          font-size: 36px;
+          font-size: 4.5vh;
           max-width: 400px;
           width: 90%;
           margin: 0;
@@ -8676,6 +8676,9 @@ header {
           -webkit-transform: translate(-50%, -50%);
                   transform: translate(-50%, -50%); }
 
+@media (min-height: 1150px) {
+  header .container .row .mission h2 {
+    font-size: 50px; } }
 @media (max-width: 767px) {
   header .container {
     height: 50%; }
