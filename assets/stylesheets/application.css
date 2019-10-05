@@ -8636,6 +8636,9 @@ body {
 .img-hover:hover {
   opacity: 0.8; }
 
+.bold {
+  font-weight: bold; }
+
 /* Home Page Carousel */
 header {
   height: 50%;
@@ -8748,6 +8751,13 @@ footer {
 p.caption {
   color: #999;
   text-align: center; }
+
+.portfolio ol.breadcrumb li.active {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: calc(100% - 140px);
+  vertical-align: middle; }
 
 .carousel.full-view-avail .item {
   max-width: 750px;
